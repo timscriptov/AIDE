@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">AIDE NDK Support</string>
+	<string name="kilobytes_per_second">%1$s KB/s</string>
+	<string name="notification_download_complete">Загрузка завершена</string>
+	<string name="notification_download_failed">Загрузка не завершена</string>
+	<string name="state_completed">Загрузка завершена</string>
+	<string name="state_connecting">Подключение к серверу</string>
+	<string name="state_downloading">Загрузка ресурсов</string>
+	<string name="state_failed">Ошибка загрузки</string>
+	<string name="state_failed_cancelled">Загрузка отменена</string>
+	<string name="state_failed_fetching_url">Не удалось загрузить, ресурс не найден</string>
+	<string name="state_failed_sdcard_full">Не удалось загрузить, внешнее хранилище заполнено</string>
+	<string name="state_failed_unlicensed">Не удалось загрузить, приложение загружено не из Play Store</string>
+	<string name="state_fetching_url">Поиск ресурсов для загрузки</string>
+	<string name="state_idle">Ожидание начала загрузки</string>
+	<string name="state_paused_by_request">Загрузка приостановлена</string>
+	<string name="state_paused_network_setup_failure">Загрузка приостановлена.  Протестируйте сайт в браузере</string>
+	<string name="state_paused_network_unavailable">Загрузка приостановлена, проверьте доступ к Интернету</string>
+	<string name="state_paused_roaming">Загрузка приостановлена, вы находитесь в роуминге</string>
+	<string name="state_paused_sdcard_unavailable">Загрузка приостановлена, внешнее хранилище недоступно</string>
+	<string name="state_paused_wifi_disabled">Загрузка приостановлена, Wi-Fi отключен</string>
+	<string name="state_paused_wifi_unavailable">Загрузка приостановлена, Wi-Fi недоступен</string>
+	<string name="state_unknown">Запуск...</string>
+	<string name="text_button_cancel">Отмена</string>
+	<string name="text_button_cancel_verify">Отменить проверку</string>
+	<string name="text_button_pause">Приостановить</string>
+	<string name="text_button_resume">Продолжить</string>
+	<string name="text_button_resume_cellular">Продолжить</string>
+	<string name="text_button_wifi_settings">Wi-Fi настройки</string>
+	<string name="text_paused_cellular">Вы хотите включить загрузку через сотовую связь?  В зависимости от вашего тарифного плана, это может стоить вам денег.</string>
+	<string name="text_paused_cellular_2">Если вы решите не разрешать загрузку через сотовые соединения, загрузка автоматически возобновится, когда будет доступен Wi-Fi.</string>
+	<string name="text_validation_complete">Проверка файла XAPK завершена.  Нажмите OK, чтобы выйти.</string>
+	<string name="text_validation_failed">Ошибка проверки файла XAPK.</string>
+	<string name="text_verifying_download">Проверка загрузки</string>
+	<string name="time_remaining">Осталось: %1$s</string>
+	<string name="time_remaining_notification">%1$s прошло</string>
+</resources>

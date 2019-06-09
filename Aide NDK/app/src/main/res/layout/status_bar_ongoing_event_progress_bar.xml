@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:id="@+id/notificationLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:baselineAligned="false">
+
+	<FrameLayout
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:src="@drawable/notify_panel_notification_icon_bg"
+			android:scaleType="fitCenter"/>
+
+		<ImageView
+			android:id="@+id/appIcon"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:src="@android:drawable/stat_sys_download"
+			android:scaleType="center"/>
+
+	</FrameLayout>
+
+	<RelativeLayout
+		android:layout_gravity="center_vertical"
+		android:paddingLeft="16.0dip"
+		android:paddingTop="10.0dip"
+		android:paddingRight="8.0dip"
+		android:paddingBottom="8.0dip"
+		android:focusable="true"
+		android:clickable="true"
+		android:layout_width="0.0dip"
+		android:layout_height="match_parent"
+		android:layout_weight="1.0">
+
+		<ProgressBar
+			android:id="@+id/progress_bar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_centerVertical="true"
+			style="?android:attr/progressBarStyleHorizontal"/>
+
+		<TextView
+			android:id="@+id/spacer"
+			android:layout_width="1.0dip"
+			android:layout_height="6.0dip"
+			android:layout_centerVertical="true"/>
+
+		<TextView
+			android:id="@+id/title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:singleLine="true"
+			android:layout_above="@+id/spacer"
+			android:layout_alignParentLeft="true"
+			style="@style/NotificationTitle"/>
+
+		<TextView
+			android:id="@+id/time_remaining"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:singleLine="true"
+			android:layout_alignBottom="@+id/title"
+			android:layout_alignParentRight="true"
+			style="@style/NotificationText"/>
+
+		<TextView
+			android:id="@+id/description"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:singleLine="true"
+			android:layout_below="@+id/spacer"
+			android:layout_alignParentLeft="true"
+			style="@style/NotificationTextShadow"/>
+
+		<TextView
+			android:id="@+id/progress_text"
+			android:layout_width="35.0dip"
+			android:layout_height="wrap_content"
+			android:singleLine="true"
+			android:layout_alignTop="@+id/description"
+			android:layout_alignParentRight="true"
+			style="@style/NotificationText"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+
